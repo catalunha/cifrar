@@ -1,14 +1,10 @@
 # cifrar_msg
 
-A new Flutter package project.
+Meu primeiro Package para encriptar dados passando pela cifra de césar e depois por conversão hexadecimal com base me numero chave.
 
-## Getting Started
-
-This project is a starting point for a Dart
-[package](https://flutter.dev/developing-packages/),
-a library module containing code that can be shared easily across
-multiple Flutter or Dart projects.
-
-For help getting started with Flutter, view our 
-[online documentation](https://flutter.dev/docs), which offers tutorials, 
-samples, guidance on mobile development, and a full API reference.
+Exemplo de uso:
+'''
+var cifraMsg = CifrarMsg(textoOriginal: 'cifrar_msg',chave: 1);
+var textoEncriptado = cifraMsg.encriptarEHex();
+print(textoEncriptado);
+'''
